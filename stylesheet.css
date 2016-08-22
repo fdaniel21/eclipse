@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+*{
+	background-color:#ffff00;
+}
+
+p{
+	
+	font-family:cursive;
+}
+a:hover{
+	
+	background-color:green;
+}
