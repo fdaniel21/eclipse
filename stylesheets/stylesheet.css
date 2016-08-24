@@ -1,7 +1,4 @@
 @CHARSET "UTF-8";
-*{
-	background-color:#0000ff;
-}
 
 p{
 	
@@ -10,9 +7,45 @@ p{
 a:hover{
 	
 	background-color:green;
+	
+}
+a{
+ text-deoration:none;
+	
 }
 img{
-	height:50px;
-	width:50px;
+	height:500px;
 	
+}
+.container{
+	background-color:#467cfe;
+}
+
+.nav ul{
+	
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;	
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+.active {
+background-color:#0d2ba3;
 }
