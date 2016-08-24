@@ -1,13 +1,12 @@
 @CHARSET "UTF-8";
-
+.background{
+	background-image:url("images/scope.jpg");
+	height:100%;
+	width:100%;
+}
 p{
 	
 	font-family:cursive;
-}
-a:hover{
-	
-	background-color:#ffffff;
-	
 }
 a{
  text-deoration:none;
@@ -19,6 +18,14 @@ img{
 }
 .container{
 	background-color:#467cfe;
+	width: 85%; 
+	height:100%;
+	margin: 0 auto; 
+}
+
+.nav{
+	padding:5px;
+	width:85%;
 }
 
 .nav ul{
@@ -42,8 +49,9 @@ img{
     text-decoration: none;
 }
 
-.nav a:hover:not(.active) {
+.nav a:hover {
     background-color: #ffffff;
+    color:black;
 }
 
 .active {
