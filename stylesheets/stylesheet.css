@@ -1,8 +1,6 @@
 @CHARSET "UTF-8";
-.background{
-	background-image:url("images/scope.jpg");
-	height:100%;
-	width:100%;
+body{
+	background-image:url("portrait.jpg");
 }
 p{
 	
@@ -18,7 +16,7 @@ img{
 }
 .container{
 	background-color:#467cfe;
-	width: 85%; 
+	width: 50%; 
 	height:100%;
 	margin: 0 auto; 
 }
